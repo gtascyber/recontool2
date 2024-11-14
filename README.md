@@ -1,8 +1,5 @@
 ![image](https://github.com/user-attachments/assets/edfe3a05-3a62-4dd5-8a77-8d2e702642a4)
 
-
-
-
 Project Title:
 "Recontool2"
 
@@ -12,4 +9,10 @@ Orchestrates and leverages open-source techniques and tools to gather informatio
 identifying their corresponding IP addresses, and finally scanning for open ports to reveal running services. 
 
 
-This tool
+Built with:
+Bash Shell
+Python 3
+
+
+
+
