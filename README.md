@@ -18,3 +18,33 @@ This tool has been developed in Linux OS, Ubuntu version 22.04.4 LTS.
 We used BASH shell scripting language (GNU bash, version 5.1.16) and Python (Python 3.10.12) programming language.
 We also used the “Cypher query Language” of Neo4j GDBMS, the “Neo4j Browser” and the “Neo4j Server” on which runs the DBMS is version 5.21.0.
 
+### Dependencies
+For the implementation of this project we used a variety of open-source tools and libraries. 
+
+
+
+
+
+### Installing
+
+
+
+### Executing the Program
+
+
+### Help
+
+
+### Authors
+
+gtasCyber
+
+###Version History
+
+---
+
+### License
+
+
+## Acknowledgements 
+
