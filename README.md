@@ -21,7 +21,12 @@ We also used the “Cypher query Language” of Neo4j GDBMS, the “Neo4j Browse
 ### Dependencies
 For the implementation of this project we used a variety of open-source tools and libraries. 
 
+#### Tools ####
+- Python3 ver. 3.10.12
+- Amass v. 3.19.2
+- 
 
+#### Libraries ####
 
 
 
