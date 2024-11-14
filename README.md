@@ -27,6 +27,13 @@ For the implementation of this project we used a variety of open-source tools an
 - 
 
 #### Libraries ####
+- sys
+- requests
+- validators
+- socket
+- re
+- subprocess
+- os
 
 
 
