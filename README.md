@@ -66,8 +66,8 @@ pip install -r requirements.txt
 ### Executing the Program
 *WARNING: Don't forget to use a VPN connection...
 
-*Usage: ./recontool2.sh [OPTIONS]
-*Options:
+-Usage: ./recontool2.sh [OPTIONS]
+-Options:
  -h,      Display this help message
  -d,      insert the domain for investigation (required)
  -a,      Active mode enabled. Performs deep DNS enumeration techniques like zone transfers, port scanning of SSL/TLS, certificates grabbing etc. (*CAUTION: More than usually time needed)
