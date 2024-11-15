@@ -1,11 +1,11 @@
-### Use the following commands
+### Use the following commands ###
 
-#### Ensure your system has the necessary tools and libraries for the 'neo4j' GDBMS
+#### Ensure your system has the necessary tools and libraries for the 'neo4j' GDBMS ####
 
 
 sudo apt update && apt upgrade -y
 
-#### Installing Java Development Kit (JDK)
+- Install Java Development Kit (JDK)
 sudo apt install openjdk-11-jdk
 
 - You can verify the installation by checking the version of the installed JDK
