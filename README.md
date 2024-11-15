@@ -19,26 +19,45 @@ We used BASH shell scripting language ("GNU bash, version 5.1.16") and Python ("
 We also used the “Cypher query Language” of Neo4j GDBMS, the “Neo4j Browser” and the “Neo4j Server” on which runs the DBMS is version 5.21.0.
 
 ### Dependencies
-For the implementation of this project we used a variety of open-source tools and libraries. 
+For the implementation of this project we orchestrated a variety of carefully chosen open-source tools and libraries. 
 
-#### Tools ####
+#### Tools
 - Python3 ver. 3.10.12
 - Amass v. 3.19.2
-- 
+- Nmap 
 
-#### Libraries ####
-- sys
+#### Python modules (Part of Python's Standard Library)
+sys
+socket
+re
+subprocess
+os
+ipaddress
+random
+datetime (from datetime)
+time
+threading
+select
+csv
+xml.etree.ElementTree
+
+
+#### Libraries
 - requests
 - validators
-- socket
-- re
-- subprocess
-- os
-
+- tldextract
+- pandas
+- py2neo
 
 
 ### Installing
+The tool has been tested and validated in a few versions of the abovementioned distro Linux OS. 
+It will be tested as soon as possible in more platforms but till then...... it's up to you.
 
+First you have to install the necessary "building blocks"
+- Install 'nmap' (on ubuntu) using the instruction of nmap_install.txt
+- install 'amass' using the instructions of amass_install.txt
+- 
 
 
 ### Executing the Program
