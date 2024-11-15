@@ -24,6 +24,7 @@ For the implementation of this project we orchestrated a variety of carefully ch
 - Python3 ver. 3.10.12
 - Amass v. 3.19.2
 - Nmap v. 7.80
+- Neo4j v. 5.21.0 GDBMS
 
 #### Python modules (Part of Python's Standard Library)
 - sys
@@ -57,6 +58,7 @@ It will be tested as soon as possible in more platforms but till then...... it's
 - install python simply with "sudo apt install python3"
 - Install 'nmap' (on ubuntu) using the instruction of nmap_install.txt
 - install 'amass' using the instructions of amass_install.txt
+- install 'Neo4j' GDBMS using the instructions of neo4j_install.txt
 
 
 #### Install the necessary libraries
