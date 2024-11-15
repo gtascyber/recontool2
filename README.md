@@ -1,19 +1,18 @@
 ![image](https://github.com/user-attachments/assets/edfe3a05-3a62-4dd5-8a77-8d2e702642a4)
 
-# Project Title
-"Recontool2"
+# "Recontool2"
 
 
 ## Geting Started
 ### Short Description
-This tool addresses the first step of the cyberattack cycle, known as "Reconnaissance." 
-Orchestrates and leverages open-source techniques and tools to gather information, starting with a domain name, uncovering related subdomains, 
-identifying their corresponding IP addresses, and finally scanning for open ports to reveal running services. 
+**This tool addresses the first step of the cyberattack cycle, known as "Reconnaissance."**
+**Orchestrates and leverages open-source techniques and tools to gather information, starting with a domain name, uncovering related subdomains,** 
+**identifying their corresponding IP addresses, and finally scanning for open ports to reveal running services.**
 
 ### Environment of Development and Operation
-This tool has been developed in Linux OS, "Ubuntu version 22.04.4 LTS."
-We used BASH shell scripting language ("GNU bash, version 5.1.16") and Python ("Python 3.10.12") programming language.
-We also used the “Cypher query Language” of Neo4j GDBMS, the “Neo4j Browser” and the “Neo4j Server” on which runs the DBMS is version 5.21.0.
+**This tool has been developed in Linux OS, "Ubuntu version 22.04.4 LTS."**
+**We used BASH shell scripting language ("GNU bash, version 5.1.16") and Python ("Python 3.10.12") programming language.**
+**We also used the “Cypher query Language” of Neo4j GDBMS, the “Neo4j Browser” and the “Neo4j Server” on which runs the DBMS is version 5.21.0.**
 
 
 ### Dependencies
@@ -64,16 +63,18 @@ pip install -r requirements.txt
 
 
 ### Executing the Program
-*WARNING: Don't forget to use a VPN connection...
+**WARNING: Don't forget to use a VPN connection...**
 
--Usage: ./recontool2.sh [OPTIONS]
--Options:
- -h,      Display this help message
- -d,      insert the domain for investigation (required)
- -a,      Active mode enabled. Performs deep DNS enumeration techniques like zone transfers, port scanning of SSL/TLS, certificates grabbing etc. (*CAUTION: More than usually time needed)
- -v,      Enable verbose mode
- -b,      Brute force SubDomain Enumeration with default dictionary. Use along with -w flag to use your own wordlist
- -w,      Path to use wordlist for sub-domains brute forcing.
+-Usage: "./recontool2.sh [OPTIONS]"
+
+-OPTIONS
+- -h,      Display this help message
+- -d,      insert the domain for investigation (required)
+- -a,      Active mode enabled. Performs deep DNS enumeration techniques like zone transfers, port scanning of SSL/TLS, certificates grabbing etc. (*CAUTION: More than usually time needed)
+- -v,      Enable verbose mode
+- -b,      Brute force SubDomain Enumeration with default dictionary. Use along with -w flag to use your own wordlist
+- -w,      Path to use wordlist for sub-domains brute forcing
+  
 
 
 
@@ -93,9 +94,3 @@ pip install --upgrade pip
 gtasCyber
 
 
-###Version History
----
-
-
-### Acknowledgements 
----
