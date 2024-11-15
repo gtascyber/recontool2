@@ -1,0 +1,67 @@
+### Use the following commands
+
+#### Ensure your system has the necessary tools and libraries for the 'amass' project
+
+sudo apt update
+sudo apt install -y build-essential golang git
+
+(Golang required because Amass is written in Go.)
+
+
+
+#### Set up the GO environment
+
+mkdir -p ~/go/bin
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+
+(If you wan to make them persistent, add these lines to your ~/.bashrc or ~/.zshrc file)
+
+
+
+#### Download Amass Version 3.19.2
+
+-Clone the specific release of Amass from its GitHub repository:
+
+git clone https://github.com/owasp-amass/amass.git
+cd amass
+git checkout v3.19.2
+
+go build -v ./cmd/amass
+
+sudo mv amass /usr/local/bin/
+
+
+#### Verify the installation
+
+amass -version
+
+or you can simply use
+
+amass
+
+
+
+#### optional setting
+
+
+If the Go binaries must be accessible globally (if you didn’t move the binary to /usr/local/bin), ensure the ~/go/bin directory is added to your PATH:
+
+export PATH=$PATH:~/go/bin
+
+
+
+
+*** Remember to have admin rights to all the procedure ***
+
+
+
+
+
+
+
+
+
+
+
+
