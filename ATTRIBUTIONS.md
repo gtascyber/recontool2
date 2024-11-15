@@ -3,4 +3,4 @@ This project uses the following tools:
 - Nmap: Nmap Public Source License (NPSL)
 - Pandas: BSD 3-Clause License
 
-The project itself is licensed under [Selected License].
+The project itself is licensed under [GNU General Public License (GPL) v3.0:].
