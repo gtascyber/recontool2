@@ -14,8 +14,8 @@ identifying their corresponding IP addresses, and finally scanning for open port
 
 ### Environment of Development and Operation
 
-This tool has been developed in Linux OS, Ubuntu version 22.04.4 LTS.
-We used BASH shell scripting language (GNU bash, version 5.1.16) and Python (Python 3.10.12) programming language.
+This tool has been developed in Linux OS, "Ubuntu version 22.04.4 LTS."
+We used BASH shell scripting language ("GNU bash, version 5.1.16") and Python ("Python 3.10.12") programming language.
 We also used the “Cypher query Language” of Neo4j GDBMS, the “Neo4j Browser” and the “Neo4j Server” on which runs the DBMS is version 5.21.0.
 
 ### Dependencies
