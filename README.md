@@ -8,6 +8,8 @@
 **This tool addresses the first step of the cyberattack cycle, known as "Reconnaissance."**
 **Orchestrates and leverages open-source techniques and tools to gather information, starting with a domain name, uncovering related subdomains,** 
 **identifying their corresponding IP addresses, and finally scanning for open ports to reveal running services.**
+**The last step is the Visualization of the results using GDBMS graphs in order to depict schematically what is not obvious by reading text reports**
+**My intention was to create a tool that works as automated as possible, from the beggining to the end, without the need for interaction with the user all time.**
 
 ### Environment of Development and Operation
 **This tool has been developed in Linux OS, "Ubuntu version 22.04.4 LTS."**
