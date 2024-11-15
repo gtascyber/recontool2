@@ -1,1 +1,35 @@
+### Use the following commands
+
+#### Ensure your system has the necessary tools and libraries for the 'neo4j' GDBMS
+
+
+sudo apt update && apt upgrade -y
+
+#### Installing Java Development Kit (JDK)
+sudo apt install openjdk-11-jdk
+
+- You can verify the installation by checking the version of the installed JDK
+java -version
+
+- Adding Neo4j on Ubuntu Repository
+sudo apt-get install apt-transport-https
+
+- Import the GPG key used for signing Neo4j packages
+wget -O - https://debian.neo4j.com/neotechnology.gpg.key | sudo apt-key add -
+
+- Add the Neo4j repository to your system
+echo 'deb https://debian.neo4j.com stable latest' | sudo tee /etc/apt/sources.list.d/neo4j.list
+
+- Update the system’s package list
+sudo apt-get update
+
+- Install Neo4j on Ubuntu
+sudo apt-get install neo4j
+
+- Start and Enable Neo4j Service
+sudo systemctl start neo4j
+sudo systemctl enable neo4j
+
+- Verify the status of the Neo4j service using
+sudo systemctl status neo4j
 
