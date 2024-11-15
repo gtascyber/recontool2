@@ -5,7 +5,7 @@
 
 ## Geting Started
 ### Short Description
-**>This tool addresses the first step of the cyberattack cycle, known as "Reconnaissance."**<br/>
+>This tool addresses the first step of the cyberattack cycle, known as "Reconnaissance."<br/>
 >Orchestrates and leverages open-source techniques and tools to gather information, starting with a domain name, uncovering related subdomains, identifying their corresponding IP addresses, and finally scanning for open ports to reveal running services.<br/>
 >The last step is the Visualization of the results using GDBMS graphs in order to depict schematically what is not obvious by reading text reports.<br/>
 **>My intention was to create a tool that works as automated as possible, from the beggining to the end, without the need for interaction with the user all time.**<br/>
