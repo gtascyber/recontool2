@@ -33,3 +33,4 @@ sudo systemctl enable neo4j
 - Verify the status of the Neo4j service using
 sudo systemctl status neo4j
 
+(*** Neo4j on Ubuntu runs on localhost. Please check by visiting http://localhost:7474.***)
