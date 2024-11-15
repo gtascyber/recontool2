@@ -1,0 +1,58 @@
+###Use the following commands
+
+
+sudo apt update
+
+sudo apt install -y build-essential liblua5.3-dev libssl-dev libssh2-1-dev zlib1g-dev libpcre3-dev libpcap-dev libdnet-dev
+
+wget https://nmap.org/dist/nmap-7.80.tar.bz2
+
+tar xjf nmap-7.80.tar.bz2
+
+cd nmap-7.80
+
+./configure --with-liblua=/usr --with-openssl --with-libssh2 --with-libz --with-libpcre --with-libpcap --with-libdnet --enable-ipv6
+
+
+
+### Information about dependencies
+
+--with-liblua=/usr:
+Specifies the Lua library location.
+
+--with-openssl:
+Enables SSL/TLS support.
+
+--with-libssh2:
+Enables SSH support.
+
+--with-libz:
+Enables zlib compression.
+
+--with-libpcre:
+Enables regular expression support.
+
+--with-libpcap:
+Enables packet capture support.
+
+--with-libdnet:
+Enables direct network access support.
+
+--enable-ipv6:
+Ensures IPv6 support.
+
+
+### As soon as configuration completes with no errors, compile and install Nmap:
+
+make
+sudo make install
+
+
+
+### Check the installation 
+
+nmap -V
+
+
+
+*** Remember to have admin rights to all the procedure
