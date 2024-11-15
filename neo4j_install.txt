@@ -1,4 +1,5 @@
 ### Use the following commands ###
+*** Remember to have admin rights to all the procedure ***
 
 #### Ensure your system has the necessary tools and libraries for the 'neo4j' GDBMS ####
 
